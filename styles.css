@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: hsl(233,47%,7%);
+}
+
+h1,h2,h3{
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: hsl(0,0%,100%)
+}
+
+h4{
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: normal;
+  color: hsla(0,0%,100%,0.75);
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Class Sytyles */
+
+.highlighted{
+  color: hsl(277, 64%, 61%);
+}
+
+.card{
+  width: 65rem;
+  height: 25rem;
+  margin: 175px auto 50px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-stat{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 70px 110px 60px 70px;
+}
+
+.img{
+  box-sizing: border-box;
+  width: 45%;
+  background-image: linear-gradient(hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)),
+  url(images/image-header-desktop.jpg);
+  border-radius: 0px 8px 8px 0px;
+
+}
+
+.atrribution a:hover{
+  color: hsl(277, 64%, 61%);
+}
+.attribution{
+  margin-left: 200px;
+}
